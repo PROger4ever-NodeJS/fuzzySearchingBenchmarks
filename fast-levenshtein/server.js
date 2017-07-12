@@ -2,7 +2,7 @@ const fs = require("fs");
 const lev = require("fast-levenshtein");
 
 console.log("Loading file...");
-let dicBuf = fs.readFileSync("dic.txt", { encoding: 'utf8' });
+let dicBuf = fs.readFileSync("../dic.txt", { encoding: 'utf8' });
 let dic = dicBuf.toString().split("\r\n");
 console.log("Loaded.");
 
